@@ -42,7 +42,7 @@
 .control-label {
     font-weight: 500;
 }
-[data-theme="dark"] {
+/* [data-theme="dark"] {
     --bg-color: var(--gray-900);
     --disabled-control-bg: var(--gray-900);
     --border-color: #1c2126;
@@ -50,10 +50,10 @@
     --text-bold: 600;
     --scroll-bg: #161a1f;
     --scroll-color: #1c2126;
-}
+} */
 
 [data-theme="light"] {
-    --bg-color: #f2f5fa;
+    --bg-color: beige;
     --text-bold: 600;
     --control-bg : #fff;
     --control-bg-on-gray: #d4dcea;
@@ -135,7 +135,7 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
+    --background-color: darkcyan;
     --primary-color: #ffa00a;
     --secondary-color: #7574ff;
     --white-color: #ffffff;
@@ -144,6 +144,10 @@ input:focus{
 
     --page-head-height: 50px;
     --navbar-height: 50px;
+    --text-xs: 11px;
+    --text-sm: 11px;
+    --text-md: 12px;
+    --text-base: 13px;
 }
 .btn-primary:active,
 .btn-secondary:focus,
@@ -168,6 +172,15 @@ input:focus{
 .btn-secondary:hover{
     background-color: rgba(255, 120, 10, 0.93) !important;
 } */
+.btn.btn-secondary.btn-xs.btn-custom{
+    background-color: #606060 !important;
+    color: var(--white-color) !important;
+    border-radius: 0 !important;
+    transition: background-color ease-in-out .15s;
+}
+.btn.btn-secondary.btn-xs.btn-custom:hover{
+    background-color: rgba(255, 120, 10, 0.93) !important;
+}
 .page-head,
 .page-head .page-head-content{
     height: var(--page-head-height);
@@ -335,3 +348,30 @@ symbol#icon-small-down{
     stroke: var(--white-color);
 } */
 
+
+.shortcut-widget-box .widget-head .widget-label .widget-title .ellipsis {
+    color: #007bff !important;
+  }
+  
+  
+  .widget.links-widget-box .link-item.ellipsis .link-text {
+    color: #3399ff !important;
+  }
+  
+  
+  .widget.links-widget-box .link-item.ellipsis svg {
+    fill: #3399ff !important;
+  }
+  
+  .ellipsis.title-text {
+    color: green !important;
+  }
+  
+  
+  .document-link-badge .badge-link {
+    color: #007bff !important;
+    border-color: #007bff !important;
+  }
+  .widget-title .ellipsis {
+    color: orange !important;
+  }
