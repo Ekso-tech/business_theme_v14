@@ -12,6 +12,7 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-color) var(--scroll-bg);
+    color: white !important;
 }
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
