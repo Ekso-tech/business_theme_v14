@@ -12,7 +12,6 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-color) var(--scroll-bg);
-    color: white !important;
 }
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
@@ -181,6 +180,9 @@ input:focus{
 }
 .btn.btn-secondary.btn-xs.btn-custom:hover{
     background-color: rgba(255, 120, 10, 0.93) !important;
+}
+.btn.btn-secondary, div#driver-popover-item .driver-popover-footer button.btn-secondary, div#driver-popover-item .driver-popover-footer button.driver-prev-btn {
+    background-color: revert-layer !important;
 }
 .page-head,
 .page-head .page-head-content{
@@ -375,4 +377,10 @@ symbol#icon-small-down{
   }
   .widget-title .ellipsis {
     color: orange !important;
+  }
+  #navbar-breadcrumbs > li,
+  #navbar-breadcrumbs > li > a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white !important;
   }
