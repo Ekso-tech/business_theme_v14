@@ -384,3 +384,8 @@ symbol#icon-small-down{
     vertical-align: middle;
     color: white !important;
   }
+
+  .btn.btn-default, div#driver-popover-item .driver-popover-footer button.btn-default {
+    background-color: burlywood !important;
+    color: var(--text-color) !important;
+}
