@@ -389,3 +389,7 @@ symbol#icon-small-down{
     background-color: burlywood !important;
     color: var(--text-color) !important;
 }
+
+#navbar-breadcrumbs li.disabled a{
+    color: white !important;
+}
