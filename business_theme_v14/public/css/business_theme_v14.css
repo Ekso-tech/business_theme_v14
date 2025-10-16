@@ -367,7 +367,9 @@ symbol#icon-small-down{
   }
   
   .ellipsis.title-text {
-    color: green !important;
+    color: brown !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
   }
   
   
